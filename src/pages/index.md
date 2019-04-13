@@ -20,7 +20,7 @@ description: >-
   loves open source projects.
 intro:
   blurbs:
-    - image: /img/communicationgraphic.svg
+    - image: /img/communicationgraphic-1-.svg
       text: >
         Communicating with peers, proper planning are crucial to success. 
 
