@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
 title: 'Matt Shaver  A Creative, Passionate Front End Developer'
-image: /img/javascript-with-laptop-code.jpg
-heading: Revolutionizing everyday
+image: /img/javascriptlaptopresized.png
+heading: Revolutionizing Code...
 subheading: 'Coding is an adventure that I love to go on everyday. '
 mainpitch:
   title: Transforming what it means to be a developer
