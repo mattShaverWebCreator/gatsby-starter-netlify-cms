@@ -30,17 +30,17 @@ intro:
 
         Matt prides himself on his organization, planning, communication
         skills. 
-    - image: /img/coffee-gear.png
+    - image: /img/productivitysvg.png
       text: >
         Work Ethic, Consistency are paramount when it comes to delivering
         projects on time. Matt puts in the time, effort needed to ensure
         projects are successful. 
-    - image: /img/tutorials.png
+    - image: /img/relationshipssvg.svg
       text: >-
         Giving value to others is the best way to build great, lasting
         relationships.  Matt knows this, he provides as much value as possible
         to those around him in any given situation. 
-    - image: /img/meeting-space.png
+    - image: /img/collaborationsvg.svg
       text: >+
         The best creations come from collaboration. Matt believes that
         collaboration is a powerful tool that creates great results. He loves
