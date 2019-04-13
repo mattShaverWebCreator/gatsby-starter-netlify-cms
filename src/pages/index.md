@@ -1,21 +1,22 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: 'Matt Shaver  A Creative, Passionate Front End Developer'
+image: /img/javascript-with-laptop-code.jpg
+heading: Revolutionizing everyday
+subheading: 'Coding is an adventure that I love to go on everyday. '
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  title: Transforming what it means to be a developer
+  description: >-
+    Matt goes above and beyond when it comes to learning, creating with Front
+    End Technology. 
+
+
+    Matt's love for learning, problem solving make him a very capable Front End
+    Developer. 
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Matt is always looking for ways to improve his code, abilities. He currently
+  spends most of his time working with Html, CSS, Javascript ES6+, ReactJS in
+  the React ecosystem.  
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -45,7 +46,7 @@ intro:
         space where you can hang out with fellow coffee lovers and learn about
         coffee making techniques. All of the artwork on display there is for
         sale. The full price you pay goes to the artist.
-  heading: What we offer
+  heading: What Matt Offers
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
     java’s origin and support the farmers that grew it. We take coffee
@@ -68,3 +69,4 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+
