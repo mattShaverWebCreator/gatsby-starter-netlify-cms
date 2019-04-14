@@ -159,7 +159,7 @@ ProjectPage.propTypes = {
 export default ProjectPage
 
 export const projectPageQuery = graphql`
-  query ProjectPage($id: String!) {
+  query ProjectPageTemplate($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
