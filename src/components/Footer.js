@@ -4,8 +4,8 @@ import { Link } from 'gatsby'
 import logo from '../img/logo.png'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
-import twitter from '../img/social/twitter.svg'
-import vimeo from '../img/social/vimeo.svg'
+import linkedin from "../img/social/linkedin.svg"
+
 
 const Footer = class extends React.Component {
   render() {
@@ -14,7 +14,7 @@ const Footer = class extends React.Component {
         <div className="content has-text-centered">
           <img
             src={logo}
-            alt="Kaldi"
+            alt="Matt Shaver Web Creator Logo"
             style={{ width: '14em', height: '10em' }}
           />
         </div>
@@ -74,32 +74,24 @@ const Footer = class extends React.Component {
                 </section>
               </div>
               <div className="column is-4 social">
-                <a title="facebook" href="https://facebook.com">
+                <a title="Matt Shaver's Facebook" href="https://facebook.com">
                   <img
                     src={facebook}
-                    alt="Facebook"
+                    alt="Facebook Logo"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="twitter" href="https://twitter.com">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="instagram" href="https://instagram.com">
+                <a title="Matt Shaver's Instagram" href="https://instagram.com">
                   <img
                     src={instagram}
-                    alt="Instagram"
+                    alt="Instagram Logo"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="vimeo" href="https://vimeo.com">
+                <a title="Matt Shaver's LinkedIn" href="https://linkedin.com/in/mattliveshere">
                   <img
-                    src={vimeo}
-                    alt="Vimeo"
+                    src={linkedin}
+                    alt="LinkedIn Logo"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>

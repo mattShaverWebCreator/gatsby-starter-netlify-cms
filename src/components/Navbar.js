@@ -43,8 +43,8 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Matt Shaver" style={{ width: "215px" }} />
+            <Link to="/" className="navbar-item" title="Home">
+              <img src={logo} alt="Matt Shaver Web Creator's Logo" style={{ width: "12 rem", padding: "0.3 rem" }} />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -78,16 +78,30 @@ const Navbar = class extends React.Component {
             <div className="navbar-end has-text-centered">
               <a
                 className="navbar-item"
-                href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"
+                href="https://github.com/AustinGreen/mattShaverWebCreator"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span className="icon">
                   <img src={github} alt="Github" />
                 </span>
+              </a>
+              <a
+                className="navbar-item"
+                href="https://instagram.com/mattShaverWebCreator"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <span className="icon">
                   <img src={instagram} alt="Instagram" />
                 </span>
+              </a>
+              <a
+                className="navbar-item"
+                href="https://linkedin.com/in/mattliveshere"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <span className="icon">
                   <img src={linkedin} alt="LinkedIn" />
                 </span>
