@@ -23,7 +23,12 @@ export const IndexPageTemplate = ({
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
         backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
+        backgroundSize: 'cover',
+        backgroundPositionY: '735px',
+        display: 'flex',
+        flexFlow: 'row',
+        alignItems: 'flex-start',
+        height: '592px'
       }}
     >
       <div
@@ -34,17 +39,21 @@ export const IndexPageTemplate = ({
           justifyContent: 'space-around',
           alignItems: 'left',
           flexDirection: 'column',
+          marginTop: '64px',
+          padding: '32px'
         }}
       >
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
+            backgroundColor: 'rgb(20, 212, 255)',
             color: 'white',
             lineHeight: '1',
-            padding: '0.25em',
+            padding: '0.5em',
+            borderRadius: '4px',
+            marginBottom: '32px',
+            textAlign: 'center',
+            fontSize: '2.5rem !important'
           }}
         >
           {title}
@@ -52,12 +61,12 @@ export const IndexPageTemplate = ({
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
+            backgroundColor: 'rgb(20,212,255)',
+            borderRadius: '4px',
             color: 'white',
             lineHeight: '1',
-            padding: '0.25em',
+            padding: '0.5em',
+            textAlign: 'center'
           }}
         >
           {subheading}

@@ -41,13 +41,14 @@ const Navbar = class extends React.Component {
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Home">
+        <div className="container navbar__container">
+          <div className="columns">
+          <div className="column is-one-third navbar__brand">
+            <Link to="/" className="navbar__brand--item" title="Home">
               <img src={logo} alt="Matt Shaver Web Creator's Logo" />
             </Link>
             <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+              className={`navbar__brand--burger burger is-hidden-tablet ${this.state.navBarActiveClass}`}
               data-target="navMenu"
               onClick={() => this.toggleHamburger()}
             >
@@ -58,26 +59,27 @@ const Navbar = class extends React.Component {
           </div>
           <div
             id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
+            className={`column is-one-third navbar__menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
+            <div className="navbar__menu--items navbar-start has-text-centered">
+              <Link className="navbar__menu--item" to="/about">
                 About
               </Link>
-              <Link className="navbar-item" to="/products">
+              <Link className="navbar__menu--item" to="/projects">
                 Projects
               </Link>
-              <Link className="navbar-item" to="/blog">
+              <Link className="navbar__menu--item" to="/blog">
                 Blog
               </Link>
-              <Link className="navbar-item" to="/contact">
+              <Link className="navbar__menu--item" to="/contact">
                 Contact
               </Link>
             </div>
-            <div className="navbar-end has-text-centered">
+          </div>
+          <div className="column is-one-third navbar__social navbar-end has-text-centered">
               <a
-                className="navbar-item"
-                href="https://github.com/AustinGreen/mattShaverWebCreator"
+                className="navbar__social--icon"
+                href="https://github.com/mattShaverWebCreator"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -86,7 +88,7 @@ const Navbar = class extends React.Component {
                 </span>
               </a>
               <a
-                className="navbar-item"
+                className="navbar__social--icon"
                 href="https://instagram.com/mattShaverWebCreator"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -96,7 +98,7 @@ const Navbar = class extends React.Component {
                 </span>
               </a>
               <a
-                className="navbar-item"
+                className="navbar__social--icon"
                 href="https://linkedin.com/in/mattliveshere"
                 target="_blank"
                 rel="noopener noreferrer"
