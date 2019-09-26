@@ -35,12 +35,12 @@ intro:
         Work Ethic, Consistency are paramount when it comes to delivering
         projects on time. Matt puts in the time, effort needed to ensure
         projects are successful. 
-    - image: /img/relationshipssvg.svg
+    - image: /img/relationships.png
       text: >-
         Giving value to others is the best way to build great, lasting
         relationships.  Matt knows this, he provides as much value as possible
         to those around him in any given situation. 
-    - image: /img/collaborationsvg.svg
+    - image: /img/collaboration.png
       text: >+
         The best creations come from collaboration. Matt believes that
         collaboration is a powerful tool that creates great results. He loves
