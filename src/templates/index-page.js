@@ -31,7 +31,7 @@ export const IndexPageTemplate = ({
         height: '592px'
       }}
     >
-      <div
+      <div className="container"
         style={{
           display: 'flex',
           height: '150px',
@@ -44,32 +44,42 @@ export const IndexPageTemplate = ({
         }}
       >
         <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+          className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
-            backgroundColor: 'rgb(20, 212, 255)',
+            backgroundColor: 'rgba(20, 212, 255, 0.8)',
             color: 'white',
             lineHeight: '1',
             padding: '0.5em',
+            alignSelf: 'center',
+            maxWidth: '25em',
             borderRadius: '4px',
             marginBottom: '32px',
             textAlign: 'center',
-            fontSize: '2.5rem !important'
+            boxShadow: 'inset 0px 0px 3px 0px rgba(255,255,255,0.5)',
+            fontSize: '2.5rem !important',
+            fontWeight: '300'
           }}
         >
-          {title}
+          Matt Shaver:  The <span className="important-text" style={{
+            color: '#8bffb9',
+            fontWeight: '400'
+          }}>Creative, Passionate</span> Front End Developer
         </h1>
         <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+          className="is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
-            backgroundColor: 'rgb(20,212,255)',
+            backgroundColor: 'rgba(20,212,255, 0.8)',
             borderRadius: '4px',
             color: 'white',
             lineHeight: '1',
             padding: '0.5em',
-            textAlign: 'center'
+            textAlign: 'center',
+            minWidth: '43em',
+            alignSelf: 'center',
+            fontWeight: '400'
           }}
         >
-          {subheading}
+          Crafting great UI/UX experiences using world class technology.
         </h3>
       </div>
     </div>
@@ -80,19 +90,63 @@ export const IndexPageTemplate = ({
             <div className="column is-10 is-offset-1">
               <div className="content">
                 <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
+                  <div className="tile" style={{
+                    justifyContent: 'left',
+                    fontWeight: '700'
+                  }}>
+                    <h3 className="title" style={{
+                    fontWeight: '200',
+                    fontSize: '2.5em',
+                    marginBottom: '1.5em'
+                  }}>Transforming what it means to be a <span class="important-text" style={{
+                      fontWeight: '600'
+                    }}>developer</span></h3>
                   </div>
                   <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                    <h3 className="subtitle" style= {{
+                      fontWeight: '300',
+                      opacity: '0.8',
+                      textAlign: 'left'
+                    }}>{mainpitch.description}</h3>
                   </div>
                 </div>
-                <div className="columns">
+                <div className="columns" style={{
+                  marginTop: '32px'
+                }}>
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
+                    <h3 style={{
+                      fontSize: '2.5em',
+                      marginBottom: '1.5em',
+                      fontWeight: '200'
+                    }}>
+                      Revolutionizing <span class="important-text" style={{
+                        fontWeight: '400'
+                      }}>Code...</span>
                     </h3>
-                    <p>{description}</p>
+                    <p style={{
+                      fontWeight: '300',
+                      opacity: '0.8',
+                      fontSize: '1.5em'
+                    }}>Matt is always looking for ways to improve his code, abilities.</p>
+                    <h4 style={{
+                      fontWeight: '500',
+                      letterSpacing: '0.3px',
+                      marginLeft: '8px',
+                      marginTop: '1.5em',
+                      display: 'block'
+                    }}>Matt's Current Obsessions:</h4>
+                    <ul class="text-content">
+                      <li class="text-content__item">Html</li>
+                      <li class="text-content__item">CSS</li>
+                      <li class="text-content__item">Javascript</li>
+                      <li class="text-content__item">ES6+</li>
+                      <li class="text-content__item">ReactJS</li>
+                      <li class="text-content__item">Gatsby</li>
+                      <li class="text-content__item">Apollo</li>
+                      <li class="text-content__item">Python</li>
+                      <li class="text-content__item">UI/UX</li>
+                      <li class="text-content__item">Figma</li>
+                    </ul>
                   </div>
                 </div>
                 <Features gridItems={intro.blurbs} />
